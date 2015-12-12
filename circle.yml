@@ -5,12 +5,12 @@ deployment:
   production:
     branch: production
     heroku:
-      appname: demo-repo
+      appname: demo-repo-dev
   testing:
     branch: testing
     heroku:
-      appname: demo-repo
+      appname: demo-repo-dev
   development:
     branch: development
     heroku:
-      appname: demo-repo
+      appname: demo-repo-dev
