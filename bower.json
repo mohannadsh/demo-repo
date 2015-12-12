@@ -3,7 +3,9 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
-    "modernizr": "~2.8.3"
+    "modernizr": "~2.8.3",
+    "chai": "~3.4.2",
+    "mocha": "~2.3.4"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -13,9 +15,5 @@
         "assets/javascripts/bootstrap.js"
       ]
     }
-  },
-  "devDependencies": {
-    "chai": "~3.4.2",
-    "mocha": "~2.3.4"
   }
 }
