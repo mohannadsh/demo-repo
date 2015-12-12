@@ -1,1 +1,1 @@
-web: node -e "var express = require('express'); var app = express(); app.get('/hello', function(req, res) { res.end('aa'); }); app.listen(8001);"
+web: node -e "var express = require('express'); var app = express(); app.get('/hello', function(req, res) { res.end('aa'); }); app.listen(80);"
