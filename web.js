@@ -5,4 +5,4 @@ var app = express();
 
 app.use(morgan('dev'));
 app.use(gzippo.staticGzip("" + __dirname + "/dist"));
-app.listen(٨٠);
+app.listen(80);
