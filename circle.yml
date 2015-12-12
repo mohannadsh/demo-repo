@@ -3,10 +3,14 @@ test:
     - bower install
 deployment:
   production:
-    branch: master
+    branch: production
     heroku:
       appname: my-app-production
-  staging:
-    branch: develop
+  testing:
+    branch: testing
+    heroku:
+      appname: my-app-staging
+  development:
+    branch: development
     heroku:
       appname: my-app-staging
